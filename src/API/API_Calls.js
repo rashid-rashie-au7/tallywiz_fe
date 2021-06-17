@@ -38,7 +38,6 @@ export const getJobIds = async() => {
 export const getAskIds = async() => {
     const result = await axios.get(askURL)
     .then(({data}) => data);
-    console.log(result)
     return result;
 }
 

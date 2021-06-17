@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import { getNews } from '../../API/API_Calls';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
-// import './News.css';
 
 function NewestNews({ newestId }) {
     const [newest, setNewest] = useState({})
