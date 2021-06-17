@@ -1,0 +1,16 @@
+.app-bar{
+    background: #ff6600;
+}
+.logo{
+    margin-right: 4px;
+    border: 0.1px solid #fff;
+}
+
+.title{
+    margin-left: 20px;
+    color: black;
+}
+
+.links{
+    margin-left: 10px;
+}
